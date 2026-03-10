@@ -11,7 +11,7 @@ app = FastAPI(title="Texla Visit Tracking API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://texla-hazel.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
