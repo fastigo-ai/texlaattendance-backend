@@ -4,3 +4,4 @@ pyjwt==2.8.0
 python-multipart==0.0.6
 pydantic[email]==2.10.0
 cloudinary
+pymongo==4.16.0
