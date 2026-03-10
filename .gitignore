@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+
+
+# Secrets and Config
+.env
+.env.local
+.python-version
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Database (if using local SQLite)
+*.sqlite3
+*.db
